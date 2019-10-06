@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #ffffff;
+    color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 960px;
+    margin: 20px 20px;
+    margin-left: 28px;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+   content: '.';
+   clear: both;
+   display: block;
+   height: 0;
+   visibility: hidden;
+}
+
+nav{
+    height: 80px;
+}
+
+header{
+    background-image: url(/Users/freddro/class/freddro11.github.io/assets/images/hotel-wallpaper.png);
+    background-position: center;
+    height: 100vh;
+    margin-top: 0px;
+    border-top: 2px solid #777777;
+}
+
+.My-Bio-Name{
+    display: inline-block;
+    position: relative;
+    left: 9%;
+}
+
+.Name{
+    height: 80px;
+    width: auto;
+    position: relative;
+    left: 13.5%;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    color: white;
+    background-color: #4aaaa5;
+}
+
+.Nav-Links{
+    float: right;
+    padding-right: 130px;
+    padding-top: 32px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    width: auto;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Nav-Links li a:link,
+.Nav-Links li a:visited{
+    padding: 8px 0px;
+    text-decoration: none;
+    color: #777777;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.seperator{
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 25px; 
+    margin-left: -18px;
+    margin-right: -24px;
+    color:lightgray
+}
+
+.Nav-Links li a:hover,
+.Nav-Links li a:active{
+    border-bottom: 2px solid #4aaaa5
+}
+
+.header-text-box, .header-text-box-portfolio, .header-text-box-contact{
+    display: inline-block;
+    width: 960px;
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    background-color: #ffffff;
+}
+
+.about-me, .Portfolio, .Contact{
+    width: 200px;
+    padding-left: 21px;
+    padding-top: 20px;
+    height: 70px;
+}
+
+h1 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 200%;
+    font-weight: 300;
+}
+
+hr{
+    width: 95%;
+    height: 1px;
+    position: relative;
+    left: 20px;
+    background-color: #777777
+}
+
+.my-pic{
+    float: left;
+    display: inline-block;
+    clear: both;
+    margin-top: 23px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #777777;
+}
+
+p{
+    text-align: justify;
+    width: 96%;
+    color: #777777
+}
+
+.paragraph-1{
+    float: left;
+    display: inline-block;
+    width: 78%;
+    margin-top: 19px;
+    margin-left: 16px;
+    padding-right: 10px;
+}
+
+.paragraph-2{
+    clear: both;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    width: 98%;
+}
+
+footer{
+    text-align: center;
+    background-color: #777777;
+    padding: 25px;
+    border-top: 4px solid #4aaaa5;
+    color: #ffffff;
+}
+
+.copyright{
+    position:relative;
+    top: 20px;
+}
+
+.box1, .box2, .box3 {
+    float: left;
+    margin-left: 10px;
+    padding-left: 15px;
+    overflow: hidden;
+    
+}
+
+.Img-sports, .Img-Tech, .Img-abstract-art, .Img-travel, .Img-food, .Img-outdoors {
+    position: relative;
+    top: 140px;
+    color: white;
+    background-color: #4aaaa5;
+    font-size: 90%;
+    padding: 10px;
+    width: 260px;
+    text-align: center;
+}
+
+.span-1-of-3 img:hover {
+    transform: scale(1.05);
+}
+
+.My-form {
+    display: inline-block;
+    width: 90%;
+    margin: 20px;
+}
+
+.form-name, .form-email, .form-text {
+   display: inline-block;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   width: 100%;  
+   font-size: 70%;    
+}
+.form-name, .form-email {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.form-text {
+    height: 150px;
+}
+
+.form-btn {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 70%;
+    padding: 7px 15px;
+    font-weight: 300px;
+    
+}
+
+.form-btn:link,
+.font-btn:visited {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 70%;
+    padding: 7px 15px;
+    font-weight: 300px;
+    transition: background-color 0.2s, border 0.2s;
+}
+
+.form-btn:hover,
+.font-btn:active {
+    background-color: #3b8783;
+    border: 1px solid #3b8783;
+    color: white;
+    font-size: 70%;
+    padding: 7px 15px;
+    font-weight: 300px;
+}
